@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"Neil Ferman",
-    "description":"I am a web development engineer and I use react, react-native, JavaScript, and Typescript to develop pages. I also use Jave Spring/Hibernate, C# .NET and ASP.NET to build backend servers, along with SQL to design databases",
+    "description":"I am a web development engineer. I use react, react-native, Angular, JavaScript, and Typescript to develop pages. I also use Jave Spring/Hibernate, C# .NET and ASP.NET to build backend servers, along with SQL to design databases",
     "image":"profilepic.jpg",
-    "bio":"With over 2 years experience working in AGILE environments to set up mobile apps and webpages on large teams, I come equipped with knowledge of how to get a project done in a timely manner. I am also a game making hobbying using Unity 2D and 3D, where I have set up Augmented Reality applications using sockets to communicate between a server and mobile app, as well as designed 2D games using the Corgi engine and More Mountains Topdown engine.",
+    "bio":"With over 3 years of experience working in AGILE environments to set up mobile apps and webpages on large and small teams, I come equipped with knowledge of how to get a project done in a timely manner. I am also a game making hobbyist using Unity. I have set up Augmented Reality applications using sockets to communicate between a server and mobile app, as well as designed 2D games using the Corgi engine and More Mountains Topdown engine. I have also done some multiplayer games using MLAPI.",
     "contactmessage":"I am open for new experiences as a contracter, full time position, or freelance work. Contact me if you feel I can help you build a web app or video game engine.",
     "email": "nlferman83@gmail.com",
     "phone": "248-217-0264",
@@ -15,7 +15,6 @@
       "state":"MI",
       "zip": "48328"
     },
-    "website": "http://www.timbakerdev.com",
     "resumedownload":"../public/Neil_Ferman_Resume.docx",
     "social":[
       {
@@ -34,7 +33,7 @@
     "skillmessage":"",
     "education":[
       {
-        "school":"University",
+        "school":"Oakland University",
         "degree":"Bachelors of Computer Science",
         "graduated":"April 2018",
         "description":"President of the Video Game Making Club. Treasurer of the Board Game Design Club. Third place winner for Senior Project with AR-Top, a mobile app (Android and iOS) which used sockets to grab live updates of a map and render it in AR."
@@ -43,10 +42,16 @@
         "school":"Oakland University Internship",
         "degree":"Anatomy Learner",
         "graduated":"Game to help students learn anatomy",
-        "description":"Drag and Drop game built in Unity 2D to help students learn anatomy. Used a PHP server connected to a mySql database to store login information as well as high scores viewable by all students who played the game."
+        "description":"Drag and Drop game built in Unity to help students learn anatomy. Used a PHP server connected to a mySql database to store login information as well as high scores viewable by all students who played the game."
       }
     ],
     "work":[
+      {
+        "company":"Xperience Communications",
+        "title":"Software Developer",
+        "years":"March 2021 - Present",
+        "description":"Built call center training game in Unity and Angular to train employees to handle customer calls, using the A-Frame library to handle 3D tour environments. Strapi DB used to track user logins, progress, and high scores. Also built upon Android App used to register people attending on-site events using Android Studio."
+      },
       {
         "company":"Ricardo Defense",
         "title":"Software Developer",
@@ -61,6 +66,10 @@
       }
     ],
     "skills":[
+      {
+        "name":"Unity",
+        "level":"100%"
+      },
       {
         "name":"react",
         "level":"100%"
@@ -134,8 +143,14 @@
   "portfolio":{
     "projects": [
       {
+        "title":"DTE CX Arcade",
+        "category":"(No github for NDA purposes). Built using a combination of Unity, Angular, A-frame, and Strapi. This project has a variety of content including a scavenger hunt using 3D environments to hide items the user should look for. It also has a Unity WebGL embedded into it with different stages for the user to play in.",
+        "image":"DTE_Virtual_CX_Arcade.png",
+        "url":"#"
+      },
+      {
         "title":"Quick Pick",
-        "category":"Sam's Club's mobile app for store associates to pick customer's online orders",
+        "category":"(No github for NDA purposes). Sam's Club's mobile app for store associates to pick customer's online orders.",
         "image":"QuickPick1.jpg",
         "url":"#"
       },
@@ -156,12 +171,6 @@
         "category":"Video Game to aide medical students to learn anatomy and compete with each other to get high scores",
         "image":"Screenshot1_LevelSelect.png",
         "url":"https://bitbucket.org/goeteeks/iiltanatomy/src/master/"
-      },
-      {
-        "title":"Automated Traffic",
-        "category":"A small proof-of-concept traffic controller to show how full autonomous vehicles won't need to stop at intersections to allow for better flow of traffic",
-        "image":"Automated_Traffic.png",
-        "url":"#"
       }
     ]
   }

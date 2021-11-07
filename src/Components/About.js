@@ -17,7 +17,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section style={{height: '100vh'}} id="about">
       <div className="row">
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Neil Ferman" />

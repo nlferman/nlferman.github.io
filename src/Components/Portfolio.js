@@ -12,7 +12,7 @@ class Portfolio extends Component {
         return (
           <Slide>
           <div key={projects.title} className="portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap" style={{textAlign: 'left'}}>
               <a href={projects.url} title={projects.title} style={{height: 500}}>
                 <img alt={projects.title} src={projectImage} />
                 <div className="overlay">
@@ -30,16 +30,16 @@ class Portfolio extends Component {
     }
 
     return (
-      <section id="portfolio">
-        <CarouselProvider className="row" infinite={true} orientation="vertical" naturalSlideHeight={300} naturalSlideWidth={300} totalSlides={5}>
+      <section style={{height: '100vh'}} id="portfolio">
+        <CarouselProvider className="row"  style={{textAlign: '-webkit-center'}} infinite={true} orientation="vertical" naturalSlideHeight={300} naturalSlideWidth={300} totalSlides={5}>
           <div className="six rows">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Works. If available, you can click the image to visit the Github for the project.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <Slider>
                 {projects}
               </Slider>
-              <ButtonBack>Back</ButtonBack>
-              <ButtonNext>Next</ButtonNext>
+              <ButtonBack style={{float: 'left'}}>Back</ButtonBack>
+              <ButtonNext style={{float: 'right'}}>Next</ButtonNext>
             </div>
           </div>
         </CarouselProvider>
