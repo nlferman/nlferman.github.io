@@ -2,6 +2,7 @@ import React from "react";
 import "../css/SunnySideAgency.css";
 import Hamburger from '../img/agency/icon-hamburger.svg';
 import Orange from '../img/agency/mobile/image-header.jpg';
+import OrangeDsk from '../img/agency/desktop/image-header.jpg';
 import Arrow from '../img/agency/icon-arrow-down.svg';
 import Egg from '../img/agency/mobile/image-transform.jpg';
 import Wine from '../img/agency/mobile/image-stand-out.jpg';
@@ -20,10 +21,15 @@ const SunnySideAgency = () => {
                 {/* <img src={Hamburger} alt='menu' className='menu-icon' /> */}
             </div>
             <div className='body-header'>
-                <label className='body-header-title'>WE ARE CREATIVES</label>
+                <div className='body-header-title'>WE ARE CREATIVES</div>
                 <div>
                     <img className='body-image-arrow' alt='arrow' src={Arrow} />
-                    <img className='body-image-orange' alt='orange' src={Orange} />
+                    
+                    <picture>
+                        <source media="(min-width: 900px)" srcset={OrangeDsk} />
+                        <img src={Orange} alt="Orange" />
+                    </picture>
+
                 </div>
             </div>
             <div className='card-container'>
@@ -65,10 +71,10 @@ const SunnySideAgency = () => {
             <div className='footer'>
                 <div className='footer-title'>Sunnyside</div>
                 <div className='social-container'>
-                    <a href='#'><img className='icons' scr={FB} alt='facebook'/></a>
-                    <a href='#'><img className='icons' scr={Insta} alt='Instagram'/></a>
-                    <a href='#'><img className='icons' scr={Pin} alt='Pinterest'/></a>
-                    <a href='#'><img className='icons' scr={Twi} alt='Twitter'/></a>
+                    <a href='#'><img className='icons' src={FB} alt='facebook'/></a>
+                    <a href='#'><img className='icons' src={Insta} alt='Instagram'/></a>
+                    <a href='#'><img className='icons' src={Pin} alt='Pinterest'/></a>
+                    <a href='#'><img className='icons' src={Twi} alt='Twitter'/></a>
                 </div>
             </div>
             

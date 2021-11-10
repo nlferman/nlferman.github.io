@@ -66,6 +66,8 @@
   font-family: Barlow;
   margin-left: 2%;
   margin-right: 5%;
+  color: #23303e;
+  line-height: normal;
 }
 
 .body-header .body-image-arrow {
@@ -116,6 +118,7 @@
   font-size: clamp(2em, 5vw, 5em);
   font-family: Fraunces;
   font-weight: 800;
+  line-height: normal;
 }
 
 .card-desc {
@@ -157,6 +160,7 @@
 
 .footer .icons {
   margin: 8px;
+  width: 30px;
 }
 
 @media (min-width: 900px) {
@@ -168,9 +172,9 @@
     margin-left: 0;
   }
   .body-header .body-image-arrow {
-    padding-top: 65%;
-    padding-left: 40%;
-    width: 45vw;
+    padding-top: 10%;
+    padding-left: 38%;
+    width: 43vw;
   }
   .card-container {
     display: -ms-grid;
