@@ -14,7 +14,7 @@
 }
 
 .sunny-side-body {
-  background-color: #3ebfff;
+  background-color: #23303e;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,6 +58,7 @@
   background-color: #3ebfff;
   width: 100%;
   text-align: center;
+  margin-bottom: -12px;
 }
 
 .body-header .body-header-title {
@@ -92,14 +93,18 @@
           flex-direction: column;
   background-color: white;
   color: black;
+  margin-bottom: -6px;
 }
 
 .card-first {
   width: 100%;
+  margin-bottom: -8px;
+  background-color: white;
 }
 
 .card-second {
   width: 100%;
+  margin-bottom: -8px;
 }
 
 .card-img-txt {
