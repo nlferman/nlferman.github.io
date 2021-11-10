@@ -1,0 +1,193 @@
+@import url("../App.css");
+/*Main Site colors*/
+/*Font colors*/
+/*Button Colors*/
+/*Agency Demo*/
+@font-face {
+  font-family: Barlow;
+  src: url(https://fonts.google.com/specimen/Barlow);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+.sunny-side-body {
+  background-color: #3ebfff;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title-bar {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  background-color: #3ebfff;
+  display: inline-block;
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 8px;
+}
+
+.title-heading {
+  width: 100%;
+  font-family: Fraunces;
+  font-size: clamp(1em, 5vw, 3em);
+}
+
+.menu-icon {
+  float: right;
+  margin-right: 8px;
+  width: 12%;
+}
+
+.body-header {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #3ebfff;
+  width: 100%;
+  text-align: center;
+}
+
+.body-header .body-header-title {
+  text-align: center;
+  font-size: clamp(4em, 10vw, 10em);
+  font-family: Barlow;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+.body-header .body-image-arrow {
+  position: absolute;
+  margin: auto;
+  padding-top: 50%;
+  padding-left: 45%;
+  z-index: 1;
+  width: 60vw;
+}
+
+.body-header .body-image-orange {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  width: 100%;
+}
+
+.card-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  color: black;
+}
+
+.card-first {
+  width: 100%;
+}
+
+.card-second {
+  width: 100%;
+}
+
+.card-img-txt {
+  position: absolute;
+  width: 95%;
+  -webkit-transform: translateY(-110%);
+          transform: translateY(-110%);
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: clamp(2em, 5vw, 5em);
+  font-family: Fraunces;
+  font-weight: 800;
+}
+
+.card-desc {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 15%;
+  text-align: center;
+  font-family: Fraunces;
+  font-weight: 300;
+  font-size: clamp(1em, 5vw, 2em);
+}
+
+.card-image {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #458c7e;
+}
+
+.footer .footer-title {
+  color: #25564b;
+  font-family: Fraunces;
+  font-weight: 800;
+  font-size: clamp(1em, 5vw, 3em);
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.footer .social-container {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.footer .icons {
+  margin: 8px;
+}
+
+@media (min-width: 900px) {
+  .sunny-side-body {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .body-header .body-header-title {
+    margin-left: 0;
+  }
+  .body-header .body-image-arrow {
+    padding-top: 65%;
+    padding-left: 40%;
+    width: 45vw;
+  }
+  .card-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: [card-first] 50% [card-second] 50%;
+        grid-template-columns: [card-first] 50% [card-second] 50%;
+  }
+  .card-title {
+    margin-top: 5%;
+  }
+  .card-desc {
+    font-size: 1em;
+    margin-bottom: 0;
+    font-size: clamp(1em, 2vw, 3em);
+  }
+  .card-img-txt {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=SunnySideAgency.css.map */

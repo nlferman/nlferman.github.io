@@ -16,6 +16,7 @@ class Navbar extends Component {
 					<li className={curPage === "About" ? "current" : "smoothscroll"}><a className="smoothscroll" onClick={(e) => {this.props.setPage("About");}}>About</a></li>
 					<li className={curPage === "Resume" ? "current" : "smoothscroll"}><a className="smoothscroll" onClick={(e) => {this.props.setPage("Resume");}}>Resume</a></li>
 					<li className={curPage === "Portfolio" ? "current" : "smoothscroll"}><a className="smoothscroll" onClick={(e) => {this.props.setPage("Portfolio");}}>Works</a></li>
+					<li className={curPage === "Sample" ? "current" : "smoothscroll"}><a className="smoothscroll" onClick={(e) => {this.props.setPage("Sample");}}>Sample</a></li>
 					{/* <li className={curPage === "Contact" ? "current" : "smoothscroll"}><a className="smoothscroll" href="#contact" onClick={(e) => {e.preventDefault(); this.props.setPage("Contact");}}>Contact</a></li> */}
 				</ul>
 			</nav>
