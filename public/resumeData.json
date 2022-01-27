@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"Neil Ferman",
-    "description":"I am a web development engineer. I use react, react-native, Angular, JavaScript, and Typescript to develop pages. I also use Jave Spring/Hibernate, C# .NET and ASP.NET to build backend servers, along with SQL to design databases",
+    "description":"I am a web development and game programming engineer. I use Angular, react, react-native, Next, JavaScript, and Typescript to develop web pages. I also use Java Spring/Hibernate, C# .NET and ASP.NET to build backend servers, along with SQL to design databases.",
     "image":"profilepic.jpg",
-    "bio":"With over 3 years of experience working in AGILE environments to set up mobile apps and webpages on large and small teams, I come equipped with knowledge of how to get a project done in a timely manner. I am also a game making hobbyist using Unity. I have set up Augmented Reality applications using sockets to communicate between a server and mobile app, as well as designed 2D games using the Corgi engine and More Mountains Topdown engine. I have also done some multiplayer games using MLAPI.",
+    "bio":"With over 4 years of experience working in AGILE environments to set up mobile apps and webpages on large and small teams, I come equipped with knowledge of how to get a project done in a timely manner. I am also a game making hobbyist using Unity. I have set up Augmented Reality applications using sockets to communicate between a server and mobile app, as well as designed 2D games using the Corgi engine and More Mountains Topdown engine. I have also done some multiplayer games using MLAPI. I have hosted WebGL games on Angular and placed them in a virtual environment using the Aframe library (built off of Three.js).",
     "contactmessage":"I am open for new experiences as a contracter, full time position, or freelance work. Contact me if you feel I can help you build a web app or video game engine.",
     "email": "nlferman83@gmail.com",
     "phone": "248-217-0264",
@@ -50,7 +50,7 @@
         "company":"Xperience Communications",
         "title":"Software Developer",
         "years":"March 2021 - Present",
-        "description":"Built call center training game in Unity and Angular to train employees to handle customer calls, using the A-Frame library to handle 3D tour environments. Strapi DB used to track user logins, progress, and high scores. Also built upon Android App used to register people attending on-site events using Android Studio."
+        "description":"Built call center training game in Unity and Angular to train employees to handle customer calls, using the A-Frame library to handle 3D tour environments. Strapi DB used to track user logins, progress, and high scores. Also configured Android App used to register people attending on-site events using Android Studio. Used Unity to connect RFID scanner to application to read data from a short range and display it on screen."
       },
       {
         "company":"Ricardo Defense",
@@ -67,75 +67,31 @@
     ],
     "skills":[
       {
-        "name":"Unity",
+        "name":"Languages / Frameworks: Angular, React, Spring, Java, Android, Hibernate, Oracle SQL, TypeScript",
         "level":"100%"
       },
       {
-        "name":"react",
+        "name":"Unity: C#, socketio, Vuforia AR, Corgi Engine, More Mountains Topdown Engine, MLAPI",
         "level":"100%"
       },
       {
-        "name":"react-native",
+        "name":"Web Technologies: Angular, React, Next, AWS, HTML/CSS, JavaScript, TypeScript, Microservices",
         "level":"100%"
       },
       {
-        "name":"JavaScript/TypeScript",
+        "name":"Middleware: Spring MVC, Java, AJAX, Servlet API, JDBC, Hibernate",
         "level":"100%"
       },
       {
-        "name":"PHP",
+        "name":"Testing: Jenkins, Jasmine, Postman, Karma, JUnit, SonarQube, ESLint",
         "level":"100%"
       },
       {
-        "name":"Angular",
+        "name":"Back-End: Java, Spring Data, AWS EC2, Hibernate, Oracle SQL, JDBC",
         "level":"100%"
       },
       {
-        "name":"Java Spring/Hibernate/Boot",
-        "level":"100%"
-      },
-      {
-        "name":"Java Orcale",
-        "level":"100%"
-      },
-      {
-        "name":"C#",
-        "level":"100%"
-      },
-      {
-        "name":".NET",
-        "level": "100%"
-      },
-      {
-        "name":"ASP.NET",
-        "level":"100%"
-      },
-      {
-        "name":"SQL",
-        "level":"100%"
-      },
-      {
-        "name":"MySql",
-        "level":"100%"
-      },
-      {
-        "name":"SQL Sever",
-        "level":"100%"
-      },
-      {
-        "name":"SQLite",
-        "level":"100%"
-      },
-      {
-        "name":"Microsoft Azure",
-        "level":"100%"
-      },
-      {
-        "name":"AWS",
-        "level":"100%"
-      },
-      {
-        "name":"Jenkins",
+        "name":"Devops: GitHub, Maven, Jenkins, Jasmine, SonarQube, AWS, Azure",
         "level":"100%"
       }
     ]
@@ -168,9 +124,27 @@
       },
       {
         "title":"Anatomy Learner",
-        "category":"Video Game to aide medical students to learn anatomy and compete with each other to get high scores",
+        "category":"Video Game to aid medical students to learn anatomy and compete with each other to get high scores",
         "image":"Screenshot1_LevelSelect.png",
         "url":"https://bitbucket.org/goeteeks/iiltanatomy/src/master/"
+      },
+      {
+        "title":"Arrow Adventure",
+        "category":"Part of the 2018 Game Jam hosted by Mark Brown (Game Maker's Toolkit). Theme of game was to Move while Attacking. Little bow and arrow could be charged up and aimed with the mouse to launch bow while it held onto its arrow to propel it in any direction. Enemies could only be damaged when arrow moved with enough velocity.",
+        "image":"Arrow_Adventure_1.png",
+        "url":"https://github.com/nlferman/Arrow-Adventure"
+      },
+      {
+        "title":"Glitch Garden",
+        "category":"(No github) Plants Vs Zombies clone where players defended against a few types of enemies. Some that could jump or fly over certain defenses.",
+        "image":"Glitch_Garden.png",
+        "url":"#"
+      },
+      {
+        "title":"Laser Defender",
+        "category":"(No Github) An Arkanoid clone where user controls a ship left and right and shoots at enemies to destroy them. User has three lives, where earning 10,000 points awards an extra life.",
+        "image":"Laser_Defender.png",
+        "url":"#"
       }
     ]
   }

@@ -31,7 +31,7 @@ class Portfolio extends Component {
 
     return (
       <section style={{height: '100vh'}} id="portfolio">
-        <CarouselProvider className="row"  style={{textAlign: '-webkit-center'}} infinite={true} orientation="vertical" naturalSlideHeight={300} naturalSlideWidth={300} totalSlides={5}>
+        <CarouselProvider className="row"  style={{textAlign: '-webkit-center'}} infinite={true} orientation="vertical" naturalSlideHeight={300} naturalSlideWidth={300} totalSlides={8}>
           <div className="six rows">
             <h1>Check Out Some of My Works. If available, you can click the image to visit the Github for the project.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
