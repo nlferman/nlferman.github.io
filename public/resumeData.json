@@ -3,7 +3,7 @@
     "name":"Neil Ferman",
     "description":"I am a web development and game programming engineer. I use Angular, react, react-native, Next, JavaScript, and Typescript to develop web pages. I also use Java Spring/Hibernate, C# .NET and ASP.NET to build backend servers, along with SQL to design databases.",
     "image":"profilepic.jpg",
-    "bio":"With over 4 years of experience working in AGILE environments to set up mobile apps and webpages on large and small teams, I come equipped with knowledge of how to get a project done in a timely manner. I am also a game making hobbyist using Unity. I have set up Augmented Reality applications using sockets to communicate between a server and mobile app, as well as designed 2D games using the Corgi engine and More Mountains Topdown engine. I have also done some multiplayer games using MLAPI. I have hosted WebGL games on Angular and placed them in a virtual environment using the Aframe library (built off of Three.js).",
+    "bio":"With over 5 years of experience working in AGILE environments to set up mobile apps and webpages on large and small teams, I come equipped with knowledge of how to get a project done in a timely manner. I am also a game making hobbyist using Unity. I have set up Augmented Reality applications using sockets to communicate between a server and mobile app, as well as designed 2D games using the Corgi engine and More Mountains Topdown engine. I have also done some multiplayer games using MLAPI. I have hosted WebGL games on Angular and placed them in a virtual environment using the Aframe library (built off of Three.js). I have also used Serverless with Mongo and Python, as well as Angular to build an insurance claims app.",
     "contactmessage":"I am open for new experiences as a contracter, full time position, or freelance work. Contact me if you feel I can help you build a web app or video game engine.",
     "email": "nlferman83@gmail.com",
     "phone": "248-217-0264",
@@ -47,9 +47,15 @@
     ],
     "work":[
       {
+        "company":"Kavliro",
+        "title":"Software Developer",
+        "years":"October 2022 - Present",
+        "description":"Full stack position that utilized Serverless, Mongo, Python on the backend, and Angular on the front end in order to create a claims service to allow customers and insurance adjusters to view insurance claims and make communication of insurance concerns easy to access."
+      },
+      {
         "company":"Xperience Communications",
         "title":"Software Developer",
-        "years":"March 2021 - Present",
+        "years":"March 2021 - September 2022",
         "description":"Built call center training game in Unity and Angular to train employees to handle customer calls, using the A-Frame library to handle 3D tour environments. Strapi DB used to track user logins, progress, and high scores. Also configured Android App used to register people attending on-site events using Android Studio. Used Unity to connect RFID scanner to application to read data from a short range and display it on screen."
       },
       {
@@ -87,11 +93,11 @@
         "level":"100%"
       },
       {
-        "name":"Back-End: Java, Spring Data, AWS EC2, Hibernate, Oracle SQL, JDBC",
+        "name":"Back-End: Java, Spring Data, AWS EC2, Hibernate, Oracle SQL, JDBC, Mongo, Python",
         "level":"100%"
       },
       {
-        "name":"Devops: GitHub, Maven, Jenkins, Jasmine, SonarQube, AWS, Azure",
+        "name":"Devops: GitHub, Maven, Jenkins, Jasmine, SonarQube, AWS, Azure, Servless",
         "level":"100%"
       }
     ]
@@ -106,25 +112,25 @@
       },
       {
         "title":"Quick Pick",
-        "category":"(No github for NDA purposes). Sam's Club's mobile app for store associates to pick customer's online orders.",
+        "category":"(No Github for NDA purposes) Sam's Club's mobile app for store associates to pick customer's online orders. Customer orders come in over a live feed, store associates are able to open the order, see the list of items the customer ordered, and they would be able to scan the item as picked, and place the item in a container, then store the container. Later, when the customer arrived, the order could then be dispensed to the customer, and the customer would be charged for their order.",
         "image":"QuickPick1.jpg",
         "url":"#"
       },
       {
         "title":"AR-Top",
-        "category":"(Inactive) Mobile app that used sockets to get live updates from a server to display a map in Augmented Reality",
+        "category":"(Inactive) Mobile app that used sockets to get live updates from a server to display a map in Augmented Reality. I worked on the Augmented Reality using Unity and Vuforia. Users could scan an QR target to bring up a premade layout, that could be updated live using web-sockets. This could be used to run a Tabletop game using Augmented Reality (AR).",
         "image":"Artop_demo1.png",
         "url":"https://github.com/nlferman/AR-Top"
       },
       {
         "title":"Space Station Needle",
-        "category":"Personal project using More Mountains Top Down engine to create a small dual-stick shooter with jump, hover, and other powerups",
+        "category":"Unity project using More Mountains Top Down engine to create a small dual-stick shooter with jump, hover, and other powerups. This is a Reverse-Metroidvania style of game, where the user must give up powerups they start with to activate environmental features for the space station they need to navigate. For example, in the video the user gives up their jetpack which has limited hover, to activate moving platforms which can traverse much larger pits.",
         "image":"Space Station Needle 2 - Tile Sample.png",
         "url":"https://github.com/nlferman/SpaceStationNeedle"
       },
       {
         "title":"Anatomy Learner",
-        "category":"Video Game to aid medical students to learn anatomy and compete with each other to get high scores",
+        "category":"Video Game to aid medical students to learn anatomy and compete with each other to get high scores. Users can drag and drop muscles to their correct placements, as well as answer quiz questions. Scores are based on both time and accuracy, allowing users to compete with each other to improve their ability to study and retain information by turning learning into a fun little game.",
         "image":"Screenshot1_LevelSelect.png",
         "url":"https://bitbucket.org/goeteeks/iiltanatomy/src/master/"
       },
@@ -136,15 +142,15 @@
       },
       {
         "title":"Glitch Garden",
-        "category":"(No github) Plants Vs Zombies clone where players defended against a few types of enemies. Some that could jump or fly over certain defenses.",
+        "category":"Plants Vs Zombies clone where players defended against a few types of enemies. Some that could jump or fly over certain defenses. Star flowers give energy, energy is used to spawn more flowers or other plants to help defend your garden from the creatures seeking to attack it.",
         "image":"Glitch_Garden.png",
-        "url":"#"
+        "url":"https://github.com/nlferman/GlitchGarden"
       },
       {
         "title":"Laser Defender",
-        "category":"(No Github) An Arkanoid clone where user controls a ship left and right and shoots at enemies to destroy them. User has three lives, where earning 10,000 points awards an extra life.",
+        "category":"An Arkanoid clone where user controls a ship left and right and shoots at enemies to destroy them. User has three lives, where earning 10,000 points awards an extra life. A and D moves the ship, SPACEBAR shoots lasers. Avoid being shot at, defeat all of the enemies, survive for as long as you can.",
         "image":"Laser_Defender.png",
-        "url":"#"
+        "url":"https://github.com/nlferman/LaserDefender"
       }
     ]
   }
