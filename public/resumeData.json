@@ -47,9 +47,15 @@
     ],
     "work":[
       {
+        "company":"Adroit Studio",
+        "title": "Developer",
+        "years": "May 2023 - Present",
+        "description": "2 Player co-op Metroidvania game. Nutri-Quest is a 2D action platformer where players will work together to gather ingredients and when reaching a fireplace checkpoint, be able to cook those ingredients into meals and unlock new abilities when they gain enough nutritional points (protein, carbs, etc). Built in Unity with C#, game has several enemy varieties and two player types (a tank and a speed character) for different ability types and variety of gameplay. Nutri-Quest is designed to be fun and educational with a target audience of middle schoolers."
+      },
+      {
         "company":"Kavliro",
         "title":"Software Developer",
-        "years":"October 2022 - Present",
+        "years":"October 2022 - March 2023",
         "description":"Full stack position that utilized Serverless, Mongo, Python on the backend, and Angular on the front end in order to create a claims service to allow customers and insurance adjusters to view insurance claims and make communication of insurance concerns easy to access."
       },
       {
@@ -104,6 +110,12 @@
   },
   "portfolio":{
     "projects": [
+      {
+        "title": "Nutri-Quest",
+        "category": "(No github for NDA purposes but enjoy the video of my boss trying it for the first time). 2D Platformer Metroidvania with 2 player co-op. Built in Unity with C#.",
+        "image": "nutriquest.png",
+        "url": "https://www.youtube.com/watch?v=hDOqqNkcTuQ"
+      },
       {
         "title":"DTE CX Arcade",
         "category":"(No github for NDA purposes). Built using a combination of Unity, Angular, A-frame, and Strapi. This project has a variety of content including a scavenger hunt using 3D environments to hide items the user should look for. It also has a Unity WebGL embedded into it with different stages for the user to play in.",
