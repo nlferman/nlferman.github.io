@@ -287,14 +287,14 @@ ul#nav li.current a { color: #fe6928; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 48px;
    list-style: none;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
-  	background: #fff;
-  	height: 0px;
+  	
+  	margin-top: 24px;
+  	height: auto;
   	border-radius: 0px;
 }
 .bars li em {
@@ -303,7 +303,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -48px;
 }
 .bar-expand {
    position: absolute;
