@@ -83,7 +83,11 @@
         "level":"100%"
       },
       {
-        "name":"Unity: C#, socketio, Vuforia AR, Corgi Engine, More Mountains Topdown Engine, MLAPI",
+        "name":"Unity: C#, socketio, Vuforia AR, Corgi Engine, More Mountains Topdown Engine, MLAPI, Animator, Cinemachine, Particle System, VFX Graph, Shader Graph, URP Lighting",
+        "level":"100%"
+      },
+      {
+        "name":"C#: .Net, Singleton Pattern, Fly-Weight Pattern, Observables, Lambda Expressions, Linq, Loops, Strings, Lists, Arrays",
         "level":"100%"
       },
       {
